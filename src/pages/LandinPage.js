@@ -4,9 +4,10 @@ const LandinPage = () => {
   return (
     <div className="landin-page">
       
-      <Link to='/about' className="box-inlanding">About</Link>
+      <Link to='/about' className="box-inlanding box1">About</Link>
       <Link to='/projects' className="box-inlanding">Portafolio</Link>
-      <Link to='/contact' className="box-inlanding">Contact</Link>
+      <Link to='/contact' className="box-inlanding box2">Contact</Link>
+      <Link to='/contact' className="box-inlanding box3">Boxk</Link>
       
       
       

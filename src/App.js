@@ -22,7 +22,7 @@ function App() {
 return (
     <div className="App">
       <Header/>
-     <Home 
+      <Home 
      product={product}
      filtered={filtered}
      button={button}
