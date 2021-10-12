@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "appaop",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authappaop5c89436d",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

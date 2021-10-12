@@ -1,8 +1,39 @@
 .App {
   text-align: center;
 }
+ @media (max-width: 768px) {
 
-.App-logo {
+   .front{
+     width: 100px;
+     border: 1px solid black;
+     margin: 10px;
+     height: 100px;
+     display: flex;
+     justify-content: space-around;
+     flex-direction: column;
+     align-items: center;
+     padding: 5px;
+   }
+   .back{
+    width: 100px;
+    border: 1px solid black;
+    margin: 10px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+     flex-direction: column;
+     align-items: center;
+  }.all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+  }
+
+ }
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +66,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

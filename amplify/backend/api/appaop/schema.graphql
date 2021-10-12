@@ -1,0 +1,11 @@
+type ProducP @model {
+  id: ID!
+  name: String!
+  description: String
+  live: String
+  code: String
+  image: String
+  tecno: String!
+  by: String
+
+}
