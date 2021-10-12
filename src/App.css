@@ -35,6 +35,8 @@
      height: 200px;
    }.box2{
      margin-bottom: 300px;
+     margin-left: 20px;
+     width: 160px
    }.box3{
      margin-top:150px;
      
@@ -48,12 +50,12 @@
      background-size: cover;
      background-attachment: fixed;
    }header{
-     border: 5px solid black;
-     padding: 15px;
+     border: 4px solid black;
+     padding: 19px;
    }footer{
      display: flex;
      justify-content: center;
-     border: 5px solid black;
+     border: 3px solid black;
      padding: 18.5px;
    }.box{
      border: 1px solid black;
