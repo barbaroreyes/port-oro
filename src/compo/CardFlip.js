@@ -21,7 +21,7 @@ const CardFlip = (item) => {
     <div className="back"
     onClick={handleClick}>
     
-    {item.code}
+    {item.description}
     </div>
   </ReactCardFlip>
   )

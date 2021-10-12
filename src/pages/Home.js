@@ -1,9 +1,16 @@
 import React from 'react'
 import Main from '../compo/Main'
+import Button from '../compo/Button'
+
 const Home = (props) => {
   return (
     <div>
-      <Main {...props}/>
+     <Button 
+     {...props}
+     />
+    <Main 
+    {...props}
+    />
     </div>
   )
 }

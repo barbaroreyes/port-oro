@@ -4,22 +4,25 @@ import Data from './compo/Data'
 import './App.css';
 
 function App() {
-  
-  const [product,setProduct] =useState (Data)
-
-//   const filterred = () =>{
+  const allCat = [ ...new Set(Data.map((item, i) =>item.description ))];
    
-//  const one= Data.filter(item => item.name === 'pepe')
-//     return one
-//     setProduct(one)
-//     console.log(one)
+  const [product,setProduct] =useState (Data)
+  const [button ,setButton] = useState (allCat)
 
-//   }
-
-
-  return (
+  const filtered = (button) =>{
+  
+  const one = 
+    Data.filter(item => 
+    item.description === button)
+    setProduct(one)  
+  }
+return (
     <div className="App">
-     <Home product={product}/>
+     <Home 
+     product={product}
+     filtered={filtered}
+     button={button}
+     />
      
     </div>
   );

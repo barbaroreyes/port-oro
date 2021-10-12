@@ -1,7 +1,7 @@
 const Data = [{
     id: 1,
   name:  'pepe' ,
-  description: 'String',
+  description: 'full stack',
   live: 'String',
   code: 'String',
   image: 'String',
@@ -12,7 +12,7 @@ const Data = [{
 }, {
     id: 2,
   name:  'String!' ,
-  description: 'String',
+  description: 'full stack',
   live: 'String',
   code: 'String',
   image: 'String',
@@ -21,7 +21,7 @@ const Data = [{
 }, {
     id: 3,
   name:  'String!' ,
-  description: 'String',
+  description: 'full stack',
   live: 'String',
   code: 'String',
   image: 'String',
@@ -30,7 +30,7 @@ const Data = [{
 }, {
     id: 4,
   name:  'String!' ,
-  description: 'String',
+  description: 'front-end',
   live: 'String',
   code: 'String',
   image: 'String',
@@ -39,7 +39,7 @@ const Data = [{
 }, {
     id: 5,
   name:  'String!' ,
-  description: 'String',
+  description: 'front-end',
   live: 'String',
   code: 'String',
   image: 'String',
@@ -48,7 +48,7 @@ const Data = [{
 }, {
     id: 6,
   name:  'String!' ,
-  description: 'String',
+  description: 'back-end',
   live: 'String',
   code: 'String',
   image: 'String',
@@ -57,7 +57,7 @@ const Data = [{
 }, {
     id: 7,
   name:  'String!' ,
-  description: 'String',
+  description: 'back-end',
   live: 'String',
   code: 'String',
   image: 'String',
@@ -66,7 +66,7 @@ const Data = [{
 }, {
     id: 8,
   name:  'String!' ,
-  description: 'String',
+  description: 'back-end',
   live: 'String',
   code: 'String',
   image: 'String',
