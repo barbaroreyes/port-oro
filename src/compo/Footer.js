@@ -6,10 +6,10 @@ const Footer = () => {
     <Link to='/'className="box">
         Home
     </Link>
-    <Link className="box">
+    <Link to='/projects' className="box">
        Projects
     </Link>
-    <Link className="box">
+    <Link to='/contact' className="box">
         Contact
     </Link>
     </footer>
