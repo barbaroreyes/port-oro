@@ -34,6 +34,8 @@
    }.box1{
      width: 55%;
      height: 200px;
+     cursor: pointer;
+    
    }.box2{
      margin-bottom: 300px;
      margin-left: 20px;
@@ -65,6 +67,8 @@
      margin: 5px;
      padding:2px;
      /* height:18px; */
+   }.box4:hover{
+     height: 400px;
    }
    .buttons{
      display: flex;
@@ -115,6 +119,7 @@
   .box-inlanding:hover{
     background:red;
     cursor: pointer;
+  
   }form{
     /* width: 100%; */
     border: 1px solid #fff;
@@ -130,7 +135,18 @@
  }
  @keyframes move {
   from {
-    transform: rotate(0deg);
+    transform: rotate(0deg)
+    
+    
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes change {
+  from {
+    transform: background 
+    ;
   }
   to {
     transform: rotate(360deg);
