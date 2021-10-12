@@ -2,10 +2,10 @@ import React from 'react'
 
 const Button = (props) => {
   return (
-      <div >
+      <div className="buttons">
           {props.button.map((item,i)=>{
               return (
-                  <button onClick={()=> props.filtered(item)}>{item}</button>
+                  <div className="divs" onClick={()=> props.filtered(item)}>{item}</div>
               )
           })}
 
