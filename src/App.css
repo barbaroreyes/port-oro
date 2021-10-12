@@ -37,7 +37,8 @@
    }.box2{
      margin-bottom: 300px;
      margin-left: 20px;
-     width: 160px
+     width: 160px;
+     animation : move infinite 20s linear
    }.box3{
      margin-top:150px;
      
@@ -114,8 +115,27 @@
   .box-inlanding:hover{
     background:red;
     cursor: pointer;
-  }
+  }form{
+    /* width: 100%; */
+    border: 1px solid #fff;
+    padding: 20px;
+    text-align:center;
+    border: 1px solid #fff;
+  }input{
+    display: flex;
+    margin: 10px;
+  }.box-inlanding{
+    
+    }
  }
+ @keyframes move {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 
 /* .App-logo {
   height: 40vmin;
